@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css"/>
+    <link rel="icon" href="assets/favicon.ico" type="image/x-icon">
+    <title>Web App</title>
+</head>
+<body>
+    <div class="container">
+        <div class="web_sidebar">
+            <div>
+                <input type="text" id="categoryName" placeholder="Add Category Name">
+                <textarea id="description" placeholder="Add description"></textarea>
+                <button id="saveButton">Save</button>
+                <button id="deleteButton" class="delete-button hidden">Delete</button>
+                
+            </div>
+            <div>
+                <input type="text" id="categoryProduct" placeholder="Add Product Name">
+                <button id="saveButton">Save</button>
+            </div>            
+        </div>
+        <div class="web_container" id="web_container">
+        </div>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
